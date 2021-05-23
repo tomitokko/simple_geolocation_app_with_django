@@ -1,0 +1,11 @@
+---
+application:
+  name: "geolocation"
+  project: "weather_detector"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-geolocation"
+  routes:
+  - application_name: "geolocation"
+    paths:
+    - "/*"
