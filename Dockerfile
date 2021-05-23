@@ -6,11 +6,11 @@ COPY location /usr/local/location
 
 COPY geolocation /usr/local/geolocation
 
-COPY db.sqlite3 /usr/local 
+COPY db.sqlite3 /usr/local
 
 ADD manage.py / templates / location / geolocation / db.sqlite3 /
 
-RUN pip install -r ../requirments.txt
+RUN pip install -r ../requirements.txt
 
 RUN python manage.py runserver
 
