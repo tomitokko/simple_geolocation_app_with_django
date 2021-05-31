@@ -25,7 +25,7 @@ SECRET_KEY = 'ipy%!_bzb0$l%scdhab@ti@er7*3dgun^5$nu)0ad&w4ks&&w4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
